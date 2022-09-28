@@ -1,0 +1,36 @@
+.board{
+    width: 400px;
+    /*height: 400px;*/
+    background-color: #303030;
+    justify-content: center;
+}
+tr{
+    display: flex;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid #303030;
+    cursor: pointer;
+    outline: none;
+    font-size: 50px;
+}
+.square:hover{
+    background-color: #c4c4c4;
+    transition: .3s all ease;
+}
+h2{
+    color: white;
+}
+table{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    background-color: #303030;
+    border: none;
+    font-size: larger;
+    cursor: pointer;
+}
