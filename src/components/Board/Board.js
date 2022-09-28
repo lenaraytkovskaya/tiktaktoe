@@ -1,6 +1,5 @@
-import React, {useState} from 'react';
+import React, {useState} from 'react'
 import style from './Board.module.css'
-
 
 const Board = () => {
     const[turn, setTurn] = useState('x')
@@ -59,16 +58,12 @@ const Board = () => {
 
             })
         }
-
-
-
     }
 
     const RefreshBoard = () => {
         setWinner(null)
         setCells(Array(9).fill(''))
     }
-
 
     const Sell = ({num}) => {
         return (
